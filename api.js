@@ -56,7 +56,7 @@ export async function verify(username, password) {
     }
 }
 
-// פונקציה אסינכרונית שתריץ את הבדיקה
+
 async function runTest() {
     await verify("eytan", "a123456");
     console.log(verifiedUsers);
